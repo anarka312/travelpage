@@ -1,0 +1,55 @@
+.button {
+    background-color: #7B61FF;
+    border-radius: 12px;
+    color: #fff;
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #6344FF;
+}
+
+.button--huge {
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .button--huge {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+.button--search {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+
+.button__more {
+    display: flex;
+    align-self: center;
+    gap: 4px;
+    height: 44px;
+    background-color: #F5F4ff;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 16px;
+    color: #5243C2;
+    transition: background-color 0.2s ease-in;
+}
+
+.button__more:hover {
+    background-color: #dcd8f1;
+}
+
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+}
